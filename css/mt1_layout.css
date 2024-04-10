@@ -7,6 +7,9 @@
 	unless superceded by other styles.
    =============================================
 */
+.vertical-and-image{
+  display: flex;
+}
 .vertical{
   display: flex;
     flex-direction: column;
