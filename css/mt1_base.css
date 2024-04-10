@@ -2,13 +2,7 @@
 	HTML5 structural elements
    =============================================
 */
-header{
-  background-color: #000;
-  background-image: url(images\mt1_comments.png);
-  height: 450px;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
+
 article,
 aside,
 details,
