@@ -11,9 +11,6 @@
   display: flex;
     flex-direction: column;
 }
-.comments, .horizontal{
-  display: flex;
-}
 .comments{
   width: 8cm;
   display: flex;
@@ -27,8 +24,6 @@
   margin: 5px;
   }
 .txt{
-  padding: 10px;
-    border: 1px solid black;
     margin-right: 10px;
 }
 .horizontal{
