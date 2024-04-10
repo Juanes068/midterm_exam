@@ -7,7 +7,13 @@
 	unless superceded by other styles.
    =============================================
 */
-
+.vertical{
+  display: flex;
+    flex-direction: column;
+}
+.comments, .horizontal{
+  display: flex;
+}
 .comments{
   width: 8cm;
   display: flex;
@@ -15,11 +21,20 @@
   background-color: rgb(156, 156, 156);
   background-size: cover;
   background-repeat: no-repeat;
+  margin-bottom: 10px;
   }
   .comments2{
   margin: 5px;
   }
-
+.txt{
+  padding: 10px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+.horizontal{
+  background-image: url(images\mt1_comments.png);
+  flex-direction: row;
+}
 html {
   height: 100%;
   margin: 0;
